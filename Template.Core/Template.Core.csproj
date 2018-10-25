@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Template.Database\Template.Database.csproj" />
+    <ProjectReference Include="..\Template.Model\Template.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\..\..\..\.nuget\packages\automapper\7.0.1\lib\netcoreapp2.0\AutoMapper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
